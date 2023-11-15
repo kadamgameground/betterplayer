@@ -376,8 +376,6 @@ class _BetterPlayerMaterialControlsState
   Widget _buildMiddleRow() {
     return Container(
       color: _controlsConfiguration.controlBarColor,
-      width: double.infinity,
-      height: double.infinity,
       child: _betterPlayerController?.isLiveStream() == true
           ? const SizedBox()
           : Row(
